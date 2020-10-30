@@ -1,0 +1,41 @@
+body {
+	background-color: #000;
+	font-family: acumin-pro;
+	color: #fff;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+nav ul {
+	padding: 0px; 
+	margin: 0px;
+	list-style: none;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 20px;
+
+}
+
+.home-logo {
+	font-size: 24px;
+}
+
+.hero {
+	font-size: 65px;
+}
+
+.hero-pic {
+	width: 100%;
+}
+
+.hero-content {
+	width: 400px;
+	font-size: 30px;
+}
