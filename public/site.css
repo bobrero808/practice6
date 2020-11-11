@@ -117,15 +117,11 @@ nav ul li {
 	font-size: 20px;
 	text-align: center;
 	width: 100%;
-	padding-bottom: 35px;
+	padding-bottom: 150px;
 }
 
 .design p {
     padding-bottom: 35px;
-}
-
-.case-button {
-	text-align: center;
 }
 
 .view-case-study {	
@@ -142,38 +138,35 @@ nav ul li {
 	background-color: #fff;
 	width: 100%;
 	color: #000;
-	padding-bottom: 100px;
+	text-align: center;
+	padding-bottom: 75px;
 }
 
 .who {
 	font-size: 40px;
 	width: 550px;
-	padding-top: 200px; 
-	padding-left: 475px;
-	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 30px; 
+	margin: 0px auto;
 }
 
 .companies ul{
 	list-style: none;
 }
 
+.companies ul li {
+	display: inline-block;
+}
+
 .square-space {
 	width: 275px;
 	padding-top: 40px;
-	padding-left: 225px;
 }
 
-.company-container ul {
-	list-style: none;
-}
-
-.black-box {
-	text-align: center;
-}
-
-.work-with {
+.first-container {
 	font-size: 60px;
 	padding-top: 60px;
+	text-align: center;
 }
 
 .contact-us {	
@@ -186,24 +179,22 @@ nav ul li {
 }
 
 .contact-button {
-	padding-bottom: 200px;
+	padding-bottom: 220px;
+	text-align: center;
 }
 
-.company-container {
-	background-color: #000;
+.second-container {
 	position: relative;
 }
 
 .company-info {
 	position: absolute;
 	z-index: 1;
-	top: 0px;
-	left: 0px;
 }
 
 .company-info ul {
 	list-style: none;
-	padding-top: 200px;
+	text-align: left;
 }
 
 .company-info a {
@@ -218,26 +209,36 @@ nav ul li {
 
 .made-with {
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	padding-top: 200px;
-	padding-left: 1100px; 
 	z-index: 2;
+	text-align: right;
+	padding-top: 18px;
+	padding-left: 875px;
+	display: inline-block;
+	margin: 0px auto;
 }
 
-.made-with p {
-	font-size: 18px;
+.made-with span {
+	font-size: 19px;
+	padding-left: 200px;
 }
 
-.squarespace {
+.link {
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	padding-top: 0px;
-	padding-left: 1090px; 
-	z-index: 2;
-	margin-top: 40px;
+	z-index: 3;
 	font-size: 18px;
+	color: #fff;
+	list-style: none;
+	padding-top: 25px;
+	padding-left: 1035px;
+	list-style: none;
+}
+
+.link ul {
+	list-style: none;
+}
+
+.link a {
+	color: #fff;
 }
 
 @media screen and (min-width: 768px) {
