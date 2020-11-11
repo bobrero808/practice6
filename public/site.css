@@ -272,6 +272,8 @@ nav ul li {
 .free {
 	color: #fff;
 	font-size: 11px;
+	background-color: #262626;
+	opacity: .50;
 }
 
 @media screen and (min-width: 768px) {
