@@ -17,6 +17,10 @@ body {
 	overflow: hidden;
 }
 
+.nav-area.hidden {
+	top: -91px;
+}
+
 .navigate a {
 	color: #fff;
 	text-decoration: none;
@@ -58,15 +62,6 @@ body {
 	font-size: 27px;
 	padding: 0px 0px;
 	display: inline-block;
-}
-
-.nav-area.animate {
-	top: -71px;
-}
-
-.nav-area.sticky {
-	top: 0px;
-	z-index: 99;
 }
 
 .hero-container {
@@ -290,7 +285,10 @@ body {
 }
 
 .fixed-button {
-	position: relative;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-color: #262626;
 }
 
 .squarespace {
@@ -304,18 +302,13 @@ body {
 }
 
 .fixed-button a {
-	position: fixed;
-	bottom: 0px;
-	right: 0px;
-	width: 200px;
-	background-color: #262626;
 	text-align: center;
 	padding-top: 19px;
 	padding-bottom: 19px;
 	padding-left: 19px;
 	padding-right: 37px;
-	margin-bottom: 10px;
-	margin-right: 10px;
+	display: block;
+	color: #262626;
 }
 
 .create {
@@ -325,7 +318,6 @@ body {
 .free {
 	color: #fff;
 	font-size: 11px;
-	background-color: #262626;
 	opacity: .50;
 }
 
