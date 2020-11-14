@@ -1,0 +1,26 @@
+.hero2-container {
+	text-align: center;
+	padding-top: 77px;
+}
+
+.paragraph-wrapper {
+	text-align: center;
+	padding-top: 77px;
+}
+
+.paragraph-wrapper p {
+	font-size: 61px;
+	padding-top: 68px;
+	padding-right: 31px;
+	padding-bottom: 34px;
+	padding-left: 31px;
+	margin: 0px 0px;
+	font-weight: 350;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+.content {
+	padding: 34px;
+	padding: 31px;
+}
