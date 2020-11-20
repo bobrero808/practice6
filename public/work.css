@@ -1,0 +1,99 @@
+.hero2-container {
+	text-align: center;
+	padding: 77px;
+}
+
+.paragraph-wrapper {
+	text-align: center;
+	padding-top: 77px;
+}
+
+.paragraph-wrapper p {
+	font-size: 61px;
+	padding-top: 68px;
+	padding-right: 31px;
+	padding-bottom: 34px;
+	padding-left: 31px;
+	margin: 0px 0px;
+	font-weight: 350;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+.content {
+	padding: 36px;
+}
+
+.content img {
+	width: 575px;
+}
+
+.content a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
+
+.pic1 {
+	margin-right: 25px;
+	margin-bottom: 30px;
+}
+
+.pic1 span {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.pic1 div {
+	padding-top: 15px;
+}
+
+.pic2 {
+	margin-left: 25px;
+	margin-bottom: 30px;
+}
+
+.pic2 span {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.pic2 div {
+	padding-top: 15px;
+}
+
+.pic3 {
+	margin-right: 25px;
+	margin-top: 30px;
+}
+
+.pic3 span {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.pic3 div {
+	padding-top: 15px;
+}
+
+.pic4 {
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+.pic4 span {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.pic4 div {
+	padding-top: 15px;
+}
