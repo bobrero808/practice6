@@ -1,0 +1,49 @@
+.pic-container {
+	padding-top: 130px;
+	padding-bottom: 15px;
+	padding-right: 38px;
+	padding-left: 38px;
+}
+
+.pic-container img {
+	width: 100%;
+}
+
+.company-content {
+	padding: 21px 38px;
+}
+
+.company-content p {
+	width: 607px;
+	font-size: 32px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 1.4;
+}
+
+.pic-container2 {
+	padding-bottom: 15px;
+	padding-right: 38px;
+	padding-left: 38px;
+}
+
+.pic-container2 img {
+	width: 100%;
+}
+
+.grid-title {
+	padding: 25px 38px;
+}
+
+.grid-title h2 {
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+
+.spacer {
+	padding: 38px 30px;
+}
+
+
