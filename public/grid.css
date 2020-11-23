@@ -1,0 +1,32 @@
+.grid {
+	padding: 30px;
+	text-align: left;
+}
+
+.grid span {
+	font-size: 23px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 35px;
+	padding: 20px 10px;
+}
+
+.grid p {
+	font-size: 23px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	line-height: 35px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.grid {
+		display: flex;
+	}
+
+	.grid div {
+		flex: 1 0 0;
+	}
+}

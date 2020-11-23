@@ -25,7 +25,7 @@
 }
 
 .content img {
-	width: 575px;
+	width: 100%;
 }
 
 .content a {
@@ -43,6 +43,7 @@ transform: scale(1.1);
 }
 
 .pic1 {
+	width: 100%;
 	margin-right: 25px;
 	margin-bottom: 30px;
 }
@@ -57,6 +58,7 @@ transform: scale(1.1);
 }
 
 .pic2 {
+	width: 100%;
 	margin-left: 25px;
 	margin-bottom: 30px;
 }
@@ -71,6 +73,7 @@ transform: scale(1.1);
 }
 
 .pic3 {
+	width: 100%;
 	margin-right: 25px;
 	margin-top: 30px;
 }
@@ -85,6 +88,7 @@ transform: scale(1.1);
 }
 
 .pic4 {
+	width: 100%;
 	margin-left: 25px;
 	margin-top: 30px;
 }
@@ -96,4 +100,20 @@ transform: scale(1.1);
 
 .pic4 div {
 	padding-top: 15px;
+}
+
+@media screen and (min-width: 650px) {
+	.pic1 {
+		width: 575px;
+	}
+	.pic2 {
+		width: 575px;
+	}
+	.pic3 {
+		width: 575px;
+	}
+	.pic4 {
+		width: 575px;
+	}
+	
 }

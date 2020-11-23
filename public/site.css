@@ -89,15 +89,15 @@ body {
 }
 
 .hero-pic {
-	width:95%;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 0px 30px;
 }
 
-.hero-content {
+.hero-pic img {
+	width: 100%;
+}
+
+.hero-pic p {
 	font-size: 24px;
-	padding-left: 30px;
-	padding-right: 0px;
 	padding-top: 10px; 
 	padding-bottom: 30px;
 	font-weight: 300;
@@ -432,6 +432,10 @@ body {
 
 	.hero-container p {
 		max-width: 900px;
+	}
+
+	.hero-pic p {
+		max-width: 450px;
 	}
 }
 

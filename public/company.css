@@ -14,7 +14,7 @@
 }
 
 .company-content p {
-	width: 607px;
+	width: 100%;
 	font-size: 32px;
 	font-weight: 100;
 	letter-spacing: 1px;
@@ -45,5 +45,11 @@
 .spacer {
 	padding: 38px 30px;
 }
+
+@media screen and (min-width: 650px) {
+	.company-content p {
+		width: 607px;
+
+	}
 
 
