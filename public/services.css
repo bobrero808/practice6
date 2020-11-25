@@ -1,8 +1,14 @@
-.hero-pic {
-	width: 95%;
-	padding-left: 30px;
-	padding-right: 30px;
+.living-pic {
+	width: 100%;
+}
+
+.living-pic-container {
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-top: 36px;
 	padding-bottom: 150px;
 }
+
+
 
 
