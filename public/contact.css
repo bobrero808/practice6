@@ -1,0 +1,77 @@
+.form-instuction {
+	text-align: center;
+}
+
+.form-instuction p {
+	font-size: 32px;
+	display: inline-block;
+	width: 600px;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	text-align: left;
+	font-weight: 100;
+}
+
+.closing-image {
+	padding: 36px;
+}
+
+.closing-image img {
+	width: 100%;
+}
+
+.example-container {
+	display: flex;
+	padding-top: 120px; 
+	padding-left: 36px;
+	padding-right: 36px;
+	padding-bottom: 225px;
+}
+
+.general {
+	display: inline-block;
+	text-align: center;
+	flex: 50%;
+	padding: 20px;
+
+}
+
+.general h2 {
+	font-weight: 100;
+}
+
+.general a {
+	font-size: 30px;
+	font-weight: 100;
+	text-decoration: underline;
+	color: #fff;
+}
+
+.general a:hover {
+     background: #000;
+     opacity: .6;
+}
+
+
+.new-business {
+	display: inline-block;
+	text-align: center;
+	flex: 50%;
+	padding: 20px;
+}
+
+.new-business h2 {
+	font-weight: 100;
+}
+
+.new-business a {
+	font-size: 30px;
+	font-weight: 100;
+	text-decoration: underline;
+	color: #fff;
+}
+
+.new-business a:hover {
+     background: #000;
+     opacity: .6;
+}
