@@ -46,10 +46,10 @@
 	padding: 38px 30px;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 768px) {
 	.company-content p {
 		width: 607px;
 
 	}
-
+}
 

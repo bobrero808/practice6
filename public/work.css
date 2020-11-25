@@ -44,8 +44,6 @@ transform: scale(1.1);
 
 .pic1 {
 	width: 100%;
-	margin-right: 25px;
-	margin-bottom: 30px;
 }
 
 .pic1 span {
@@ -59,8 +57,6 @@ transform: scale(1.1);
 
 .pic2 {
 	width: 100%;
-	margin-left: 25px;
-	margin-bottom: 30px;
 }
 
 .pic2 span {
@@ -74,8 +70,6 @@ transform: scale(1.1);
 
 .pic3 {
 	width: 100%;
-	margin-right: 25px;
-	margin-top: 30px;
 }
 
 .pic3 span {
@@ -89,8 +83,6 @@ transform: scale(1.1);
 
 .pic4 {
 	width: 100%;
-	margin-left: 25px;
-	margin-top: 30px;
 }
 
 .pic4 span {
@@ -102,18 +94,71 @@ transform: scale(1.1);
 	padding-top: 15px;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 1277px) {
 	.pic1 {
 		width: 575px;
+		margin-right: 25px;
+		margin-bottom: 30px;
 	}
+
 	.pic2 {
 		width: 575px;
+		margin-left: 25px;
+		margin-bottom: 30px;
 	}
+
 	.pic3 {
 		width: 575px;
+		margin-right: 25px;
+		margin-top: 30px;
 	}
+
 	.pic4 {
 		width: 575px;
+		margin-left: 25px;
+		margin-top: 30px;
 	}
-	
+}
+
+@media screen and (max-width: 1276px) {
+	.pic1 {
+		width: 575px;
+		margin: none;
+	}
+
+	.pic2 {
+		width: 575px;
+		margin: none;	
+	}
+
+	.pic3 {
+		width: 575px;
+		margin: none;
+	}
+
+	.pic4 {
+		width: 575px;
+		margin: none;
+	}
+}
+	@media screen and (max-width: 645px) {
+	.pic1 {
+		width: 100%;
+		margin: none;
+	}
+
+	.pic2 {
+		width: 100%;
+		margin: none;	
+	}
+
+	.pic3 {
+		width: 100%;
+		margin: none;
+	}
+
+	.pic4 {
+		width: 100%;
+		margin: none;
+	}
 }

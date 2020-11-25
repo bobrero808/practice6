@@ -60,6 +60,17 @@
 		padding: 0px 100px;
 	}
 
+	.example-container > div h2 {
+		font-weight: 100;
+	}
+
+	.example-container > div a {
+		font-size: 30px;
+		font-weight: 100;
+		text-decoration: underline;
+		color: #fff;
+	}
+
 	.form-instruction p {
 		width: 600px;
 		font-size: 32px;
