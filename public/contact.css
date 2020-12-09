@@ -2,14 +2,120 @@
 	padding-top: 215px;
 }
 
+.paragraph-container {
+	padding: 36px;
+}
+
 .form-instruction h3 {
 	font-size: 23px;
 	letter-spacing: 1px;
 	line-height: 1.4;
 	font-weight: 100;
-	padding: 36px;
 	text-align: left;
+	width: 100%;
+	margin: 0 auto;
 }
+
+.box1 {
+	text-align: left;
+	width: 100%;
+	font-weight: 100;
+	padding: 36px;	
+}
+
+.box1 span {
+	padding-bottom: 32px;
+}
+
+.box2 {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 100;
+	padding: 36px;
+}
+
+.box3 {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 100;
+	padding: 36px;	
+}
+
+.box4 {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 100;
+	padding: 36px;	
+}
+
+.box4 > .row {
+	padding-bottom: 25px;
+}
+
+.box4 .col-50 {
+	padding-bottom: 72px;
+}
+
+.col-50 {
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	margin-bottom: 32px;
+}
+
+.col-25 {
+	display: inline-block;
+	width: 100%;
+	padding: 12px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.title {
+	display: block;
+	padding-bottom: 5px;
+	font-weight: 100;
+}
+
+.row {
+	flex: 1;
+}
+
+.row span {
+	display: block;
+}
+
+.row-container {
+	display: flex;
+}
+
+.row-container > div:first-child {
+	padding-right: 5px;
+}
+
+.row-container > div:last-child {
+	padding-left: 5px;
+}
+
+.submit-button {
+	text-align: left;
+	padding-bottom: 100px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.submit-button a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 100;
+	padding: 25px 40px;
+	background-color: #fff;
+	border-radius: 35px;
+}	
+
 
 .closing-image {
 	padding: 36px;
@@ -46,82 +152,6 @@
      opacity: .6;
 }
 
-.box1 {
-	text-align: left;
-	width: 580px;
-	margin: 0 auto;
-	font-weight: 100;	
-}
-
-.box1 span {
-	padding-bottom: 32px;
-}
-
-.box2 {
-	text-align: left;
-	width: 580px;
-	margin: 0 auto;
-	font-weight: 100;
-}
-
-.box3 {
-	text-align: left;
-	width: 580px;
-	margin: 0 auto;
-	font-weight: 100;	
-}
-
-.box4 {
-	text-align: left;
-	width: 580px;
-	margin: 0 auto;
-	font-weight: 100;	
-}
-
-.box4 .col-50 {
-	padding-bottom: 72px;
-}
-
-.col-50 {
-	width: 580px;
-	padding: 12px;
-	border-radius: 5px;
-	margin-bottom: 32px;
-}
-
-.col-25 {
-	display: inline-block;
-	width: 270px;
-	padding: 12px;
-	border-radius: 5px;
-	margin-bottom: 5px;
-}
-
-.title {
-	display: block;
-	padding-bottom: 5px;
-	font-weight: 100;
-}
-
-.row {
-	flex: 1;
-}
-
-.row span {
-	display: block;
-}
-
-.row-container {
-	display: flex;
-}
-
-.row-container > div:first-child {
-	padding-right: 10px;
-}
-
-.row-container > div:last-child {
-	padding-left: 10px;
-}
 
 @media screen and (min-width: 768px) {
 	.example-container {
@@ -152,7 +182,110 @@
 		width: 600px;
 		font-size: 32px;
 		margin: 0 auto;
+		letter-spacing: 1px;
+		line-height: 1.4;
+		font-weight: 100;
+		padding: 36px;
+		text-align: left;
 	}
+
+	.box1 {
+		text-align: left;
+		width: 580px;
+		margin: 0 auto;
+		font-weight: 100;	
+	}
+
+	.box1 span {
+		padding-bottom: 32px;
+	}
+
+	.box2 {
+		text-align: left;
+		width: 580px;
+		margin: 0 auto;
+		font-weight: 100;
+	}
+
+	.box3 {
+		text-align: left;
+		width: 580px;
+		margin: 0 auto;
+		font-weight: 100;	
+	}
+
+	.box4 {
+		text-align: left;
+		width: 580px;
+		margin: 0 auto;
+		font-weight: 100;	
+	}
+
+	.box4 > .row {
+		padding-bottom: 25px;
+	}
+
+	.box4 .col-50 {
+		padding-bottom: 72px;
+	}
+
+	.col-50 {
+		width: 580px;
+		padding: 12px;
+		border-radius: 5px;
+		margin-bottom: 32px;
+	}
+
+	.col-25 {
+		display: inline-block;
+		width: 270px;
+		padding: 12px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+	}
+
+	.title {
+		display: block;
+		padding-bottom: 5px;
+		font-weight: 100;
+	}
+
+	.row {
+		flex: 1;
+	}
+
+	.row span {
+		display: block;
+	}
+
+	.row-container {
+		display: flex;
+	}
+
+	.row-container > div:first-child {
+		padding-right: 5px;
+	}
+
+	.row-container > div:last-child {
+		padding-left: 5px;
+	}
+
+	.submit-button {
+		text-align: left;
+		padding-bottom: 100px;
+		margin: 0 auto;
+		width: 580px;
+	}
+
+	.submit-button a {
+		text-decoration: none;
+		color: #000;
+		font-weight: 100;
+		padding: 25px 40px;
+		background-color: #fff;
+		border-radius: 35px;
+	}
+
 
 
 }
